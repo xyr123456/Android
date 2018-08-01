@@ -5,11 +5,13 @@
               android:layout_height="match_parent">
 
     <Button
-            android:text="Button"
+            android:text="发送"
+            android:onClick="send"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" android:id="@+id/button2"/>
     <Button
-            android:text="Button"
+            android:text="删除"
+            android:onClick="del"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" android:id="@+id/button"/>
 </LinearLayout>
