@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:src="@drawable/blue" />
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:src="@drawable/button_selector" />
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:layout_gravity="center_horizontal">
+        <ZoomButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/btn_zoom_down"
+            android:src="@drawable/btn_minus"/>
+        <ZoomButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/btn_zoom_up"
+            android:src="@drawable/btn_plus"/>
+    </LinearLayout>
+    <ZoomControls android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:id="@+id/zoomControls1"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
+
