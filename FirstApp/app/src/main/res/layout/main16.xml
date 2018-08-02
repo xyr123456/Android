@@ -14,4 +14,10 @@
             android:onClick="del"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" android:id="@+id/button"/>
+    <Button
+            android:text="对话"
+            android:onClick="customView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/button3"/>
+
 </LinearLayout>
